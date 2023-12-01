@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function changeColour() {
     const blockIdInput = document.getElementById("block_id");
-    const colorInput = document.getElementById("colour_id");
+    const colourInput = document.getElementById("colour_id");
 
     const blockId = blockIdInput.value;
     const colour = colourInput.value;
