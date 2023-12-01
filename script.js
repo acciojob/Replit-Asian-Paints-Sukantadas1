@@ -1,10 +1,10 @@
 //your JS code here. If required.
-function changeColor() {
+function changeColour() {
     const blockIdInput = document.getElementById("block_id");
-    const colorInput = document.getElementById("color_id");
+    const colorInput = document.getElementById("colour_id");
 
     const blockId = blockIdInput.value;
-    const color = colorInput.value;
+    const colour = colourInput.value;
 
     if (blockId < 1 || blockId > 9) {
         alert("Please enter a valid block ID between 1 and 9.");
